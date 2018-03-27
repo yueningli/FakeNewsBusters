@@ -14,15 +14,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Bangers|Faster+One|Roboto:300" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat+Subrayada:700|Raleway:900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen|PT+Serif|Raleway:700" rel="stylesheet">
 
 <!-- Stylesheet -->
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
-
 </head>
 
-<body background="images/bgi.jpg">
+<body background="{{url_for('static', filename='images/bgi.jpg')}}" >
 
 <script src="scripts/access.js"></script>
 <script src="scripts/terms.js"></script>

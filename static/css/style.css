@@ -29,7 +29,7 @@ h1{
 	}
 
 h2 {
-	font-family:'Raleway', sans-serif;
+	font-family: 'PT Serif', serif;
 	text-align: left;
 	font-size: 30px;
 	letter-spacing: 2px;
@@ -37,7 +37,7 @@ h2 {
 	}
 
 h3 {
-	font-family:'Raleway', sans-serif;
+	font-family: 'PT Serif', serif;
 	font-size: 25px;
 	letter-spacing: 1px;
 	text-align: left;
@@ -136,7 +136,7 @@ ul.navbar li a:hover {
     -ms-flex: 1;
     flex: 1;
     padding: 7%;
-
+    
 }
 
 
@@ -176,8 +176,8 @@ ul.navbar li a:hover {
 }
 
 .button1 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border: 2px solid #FF1493;
 }
 
@@ -213,12 +213,12 @@ ul.navbar li a:hover {
 .button4 {
     background-color: white;
     color: black;
-    border: 2px solid #eb302e;
+    border: 2px solid yellow;
     padding: 16px 50px;
 }
 
 .button4:hover {
-    background-color: #eb302e;
+    background-color: yellow;
     color: white;
 }
 
@@ -486,17 +486,3 @@ input[type=submit]:hover {
       .mobileShow {display: inline;}
   }
 
-  /*
-  Anon, n.d. Tryit Editor v3.5 a[online]. Available at: https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_website [Accessed 11 January 2018].
-
-  Anon, n.d. Tryit Editor v3.5 b[online]. Available at: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_border [Accessed 11 January 2018].
-
-  Anon, n.d. How To Create a Contact Form with CSS [online]. Available at: https://www.w3schools.com/howto/howto_css_contact_form.asp [Accessed 11 January 2018].
-
-  Anon, n.d. How To Create a Custom Checkbox and Radio Buttons [online]. Available at: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp [Accessed 11 January 2018].
-
-  Schmidt, L.,n.d. How to Display Site Content Only Your Mobile Viewers Can See [online]. Available at: https://blog.hubspot.com/marketing/site-content-only-mobile-viewers-can-see-ht [Accessed 11 January 2018].
-
-
-
-  */

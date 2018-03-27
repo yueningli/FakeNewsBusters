@@ -10,14 +10,14 @@ class Question:
 question_prompts = [
      "Type BFF in a comment on Facebook and it appears green, your account is allegedly protected.",
      "McDonalds Offering First Marijuana Friendly Smoking Section In Colorado.",
-     "Google pledges $300m to support journalism and fight fake news.",
+     "Google pledges $300 million to support journalism and fight fake news.",
      "A gas station explosion caught on camera was caused by children using a mobile phone in the backseat of a car.",
      "Donald Trump decided to ban schools in an effort to curb school shootings.",
      "A U.S. District Court judge granted an injunction on an ordinance banning female toplessness in Fort Collins, Colorado.",
      "A woman managed to call 911 during a domestic abuse incident by pretending to order a pizza.",
-     "Baby carrots are often treated with small amounts of chlorine as an antimicrobial measure to reduce contamination.",
+     "Baby carrots are often treated with small amounts of chlorine to reduce contamination.",
      "Police discovered a drug lab in the back room of a Walmart in Decatur, Alabama.",
-     "The world's most-pierced person, Gerard Rogers, was killed while passing through a metal detector at LAX airport."
+     "The world's most-pierced person, Gerard Rogers, died while passing through a metal detector at LAX airport."
 ]
 
 questions = [
@@ -45,7 +45,7 @@ def run_test(questions):
         answer = raw_input("Is this news real? Type R for Real or F for Fake:")
         if answer == question.answer:
             score += 1
-    print ("You got " + str(score) + "/" + str(len(questions)) + "Correct")
+    print ("You got " + str(score) + "/" + str(len(questions)) + " Correct")
 
 run_test(questions)
 

@@ -12,7 +12,13 @@ def hello_world():
 def quiz():
     return render_template('quiz.html')
 
+@app.route('/info')
+def info():
+    return render_template('info.html')
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 if __name__ == '__main__':
     app.run()

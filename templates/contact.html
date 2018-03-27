@@ -5,7 +5,7 @@
 <head>
 <title>Online Transparency</title>
 
-<!--Metatags --> 
+<!--Metatags -->
 <meta charset="UTF-8">
 <meta name="keywords" content="">
 <meta name="description" content="">
@@ -21,7 +21,7 @@
 
 </head>
 
-<body background="images/bgi.jpg">
+<body background="{{url_for('static', filename='images/bgi.jpg')}}" style="height: 100%;  background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
 
 <script src="scripts/access.js"></script>
 <script src="scripts/terms.js"></script>
@@ -31,13 +31,13 @@
 
 <!-- Navigation -->
 <ul class="navbar">
-  <li><strong><a href="index.html">HOME</a></strong></li>
-  <li><a href="quiz.html">QUIZ</a></li>
-  <li><a href="info.html">INFO</a></li>
-  <li><a href="contact.html">CONTACT</a></li>
+  <li><strong><a href="/">HOME</a></strong></li>
+  <li><a href="quiz">QUIZ</a></li>
+  <li><a href="info">INFO</a></li>
+  <li><a href="contact">CONTACT</a></li>
 </ul>
 
-<a href="https://www.kcl.ac.uk/index.aspx"><img src="images/logo.gif" style=" width: 6em; top: 0; margin-left: 90%; position: fixed; z-index: 3" alt="Kings's College Logo" class="logo;"></a>
+<a href="https://www.kcl.ac.uk/index.aspx"><img src="images/logo2.jpg" style=" width: 6em; top: 0; margin-left: 90%; position: fixed; z-index: 3" alt="Kings's College Logo" class="logo;"></a>
 
 </header>
 
@@ -47,7 +47,7 @@
 <br>
 <br>
 <br>
-<div class="mobileShow"> 
+<div class="mobileShow">
 <br>
 <br>
 <br>
@@ -62,9 +62,9 @@
 
 <div class="flex-container">
   <article class="main">
-  
+
 <h2>CONTACT</h2>
-  
+
 <div class="container">
   <form action="/action_page.php">
     <label for="fname">First Name</label>
@@ -72,7 +72,7 @@
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
+
     <label for="email">e-mail</label>
     <input type="text" id="email" name="email adress" placeholder="Your email adress..">
 
@@ -82,46 +82,46 @@
     <input type="submit" value="Submit">
   </form>
 </div>
-  
-  
-  
+
+
+
 	</article>
 </div>
-  
 
-  
 
-  
+
+
+
 <br>
 <br>
 
 <div class="footer">
 
 
-  
+
 <!-- terms of use -->
 
 <div class="footer-flex-container">
   <article class="footer-main2">
-  
+
     <p onclick="myFunctionaccess()">Accessibility</p>
-    
+
   </article>
     <article class="footer-main2">
-  
+
     <p onclick="myFunctionterms()">Terms of Use</p>
-    
+
   </article>
-  
+
     <article class="footer-main2">
-  
+
     <p onclick="myFunctionprivacy()">Privacy Policy</p>
-    
+
   </article>
 
 
-  </div> 
-		
+  </div>
+
 </div>
 
 

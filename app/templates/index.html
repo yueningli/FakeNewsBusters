@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Online Transparency</title>
+
+<!--Metatags --> 
+<meta charset="UTF-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="Yuening Li, Lisa Koschitz">
+<meta http-equiv="refresh" content="300">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Fonts --> 
+<link href="https://fonts.googleapis.com/css?family=Bangers|Faster+One|Roboto:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat+Subrayada:700|Raleway:900i" rel="stylesheet">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  padding:0;
+
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.bgimg-1 {
+  min-height: 100%;
+  width:100%;
+}
+
+.bgimg-2 {
+  min-height: 500px;
+  width:100%;
+}
+
+.bgimg-3 {
+  min-height: 500px;
+  width:100%;
+}
+
+.caption {
+  position: absolute;
+  padding: 40px;
+  top: 40%;
+  width: 100%;
+  color: #000;
+}
+
+.caption span.border {
+  color: yellow;
+  padding: 20px;
+  font-size: 7em;
+  letter-spacing: 5px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  text-align: center;	
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+</style>
+</head>
+<body background="images/bgi.jpg" style="height: 100%;  background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+
+
+<div class="bgimg-1">
+<header>
+
+<!-- NO Navigation on homepage -->
+<a href="https://www.kcl.ac.uk/index.aspx"><img src="images/logo.gif" style=" width: 6em; top: 0; margin-left: 90%; position: fixed; z-index: 3" alt="King's College Logo" class="logo;"></a> <!--("Browser Histories", n.d.)-->
+
+</header>
+  <div class="caption">
+    <span class="border">FAKE NEWS BUSTERS</span>
+    <h2 style="color: white; margin-right: 10%; letter-spacing: 3px;">Test your fake news spotting skills and get some new info.</h2>
+    <br>
+    <br>
+  </div>
+</div>
+ <br>
+    <br>
+     <br>
+    <br>
+
+<div class="bgimg-1">
+<div class="rowindex">
+  <div class="columnindex" style="color:black; background-color:white; min-height: 100%; margin: 4% 2% 4% 4%;">
+  <br>
+  <center>  <img src="images/quiz.png" style="max-width: 100%;"  alt="icon;">     </center>   
+  <h2>TEST YOURSELF</h2>
+  <p style="font-size:20px;">Are you able to spot the fake headlines?</p>
+  <br>
+  <button class="button button1" onclick="window.location.href='quiz.html'">Sure!</button>
+  <br>
+
+  </div>
+  <div class="columnindex" style="color:black; background-color:white; opacity:0.8; border: 3px solid black; min-height: 100%; margin: 4% 2% 4% 2%;">
+  <br>
+<center>  <img src="images/info.png" style="max-width: 100%;"  alt="icon;">     </center>   
+  <h2>ABOUT FAKE NEWS</h2>
+  <p style="font-size:20px;">A field guide on how to spot Fake news</p>
+  <br>
+ <button class="button button2" onclick="window.location.href='info.html'">Yes Please!</button>
+  <br>
+  </div>
+    <div class="columnindex" style="color:black; background-color:#f2f2f2; opacity: 0.7; border: 3px solid white; min-height: 100%; margin: 4% 4% 4% 2%;">
+  <br>
+    <center>  <img src="app/static/images/contact.png" style="max-width: 100%;"  alt="icon;">     </center>   
+  <h2>CONTACT</h2>
+  <p style="font-size:20px;">Do you have any questions? -Just get in touch!</p>
+  <br>
+ <button class="button button2" onclick="window.location.href='contact.html'">I Do!</button>
+  <br>
+  </div>
+</div>
+</div>
+<div class="footer">
+
+
+
+<!-- terms of use -->
+
+
+<div class="footer-flex-container">
+  <article class="footer-main2">
+  
+    <p onclick="myFunctionaccess()">Accessibility</p>
+    
+  </article>
+    <article class="footer-main2">
+  
+    <p onclick="myFunctionterms()">Terms of Use</p>
+    
+  </article>
+  
+    <article class="footer-main2">
+  
+    <p onclick="myFunctionprivacy()">Privacy Policy</p>
+    
+  </article>
+
+
+  </div> 
+		
+</div>
+
+</body>
+</html>

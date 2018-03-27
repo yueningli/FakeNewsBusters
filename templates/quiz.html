@@ -5,7 +5,7 @@
 <head>
 <title>Online Transparency</title>
 
-<!--Metatags --> 
+<!--Metatags -->
 <meta charset="UTF-8">
 <meta name="keywords" content="">
 <meta name="description" content="">
@@ -13,12 +13,12 @@
 <meta http-equiv="refresh" content="300">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google Fonts --> 
+<!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Bangers|Faster+One|Roboto:300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat+Subrayada:700|Raleway:900i" rel="stylesheet">
 
 <!-- Stylesheet -->
-<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 
 </head>
 
@@ -39,7 +39,7 @@
 </ul>
 
 
-<a href="https://www.kcl.ac.uk/index.aspx"><img src="images/logo.gif" style=" width: 6em; top: 0; margin-left: 90%; position: fixed; z-index: 3" alt="King's College Logo" class="logo;"></a> <!--("Browser Histories", n.d.)-->
+<a href="https://www.kcl.ac.uk/index.aspx"><img src="{{url_for('static', filename='images/logo.gif')}}" style=" width: 6em; top: 0; margin-left: 90%; position: fixed; z-index: 3" alt="King's College Logo" class="logo;"></a> <!--("Browser Histories", n.d.)-->
 
 </header>
 
@@ -47,7 +47,7 @@
 
 <br>
 <br>
-<div class="mobileShow"> 
+<div class="mobileShow">
 <br>
 <br>
 <br>
@@ -61,7 +61,7 @@
 
 
 <div class="flex-container">
-<article class="main2" > 
+<article class="main2" >
 
 <h2 style="color: white;">DEAR PARTICIPANT!</h2>
 <p style="color: white;">You are taking part of a survey by King’s College London. The aim is to understand the online usage of European citizens better. Of course, your anonymity is guaranteed, and all data is used without any personalised information. </p>
@@ -69,7 +69,7 @@
 <div class="questioncontainer">
 
 <div class="pq"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex turpis. </div>
- 
+
 <label class="questioncontainer2">Yes
   <input type="radio" name="1">
   <span class="checkmark"></span>
@@ -83,7 +83,7 @@
 
 <div class="pq"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex turpis.</div>
 
- 
+
 <label class="questioncontainer2">multiple times a day
   <input type="radio" name="2">
   <span class="checkmark"></span>
@@ -103,7 +103,7 @@
 
 <br>
 <div class="pq"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex turpis..</div>
- 
+
 <label class="questioncontainer2">completely agree
   <input type="radio" name="3">
   <span class="checkmark"></span>
@@ -128,7 +128,7 @@
 
 <br>
 <div class="pq"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex turpis.</div>
- 
+
 <label class="questioncontainer2">completely agree
   <input type="radio" name="4">
   <span class="checkmark"></span>
@@ -153,7 +153,7 @@
 
 <br>
 <div class="pq"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex turpis.</div>
- 
+
 <label class="questioncontainer2">completely agree
   <input type="radio" name="5">
   <span class="checkmark"></span>
@@ -184,12 +184,12 @@
 <div class="pq"> Please fill in some demographic data, we will anonymise it of course </div>
 <br>
 <label for="postcode">Please enter your post code</label>
-    <textarea id="postcode" name="7" placeholder="E15 .." style="height:40px"></textarea>  
+    <textarea id="postcode" name="7" placeholder="E15 .." style="height:40px"></textarea>
 
 
-<br>    
+<br>
 <div class="pq"> With what gender do you identify with?</div>
- 
+
 <label class="questioncontainer2">female
   <input type="radio" name="8">
   <span class="checkmark"></span>
@@ -211,7 +211,7 @@
 
 <br>
 <div class="pq"> Please select your age.</div>
- 
+
 <label class="questioncontainer2">18-25
   <input type="radio" name="9">
   <span class="checkmark"></span>
@@ -233,9 +233,9 @@
   <span class="checkmark"></span>
 </label>
 
-<br>     
+<br>
 <div class="pq"> What is your current occupation?</div>
- 
+
 <label class="questioncontainer2">employed for wages
   <input type="radio" name="10">
   <span class="checkmark"></span>
@@ -264,7 +264,7 @@
 
 <br>
 <div class="pq"> What is the highest level of education you have completed?</div>
- 
+
 <label class="questioncontainer2">no schooling completed
   <input type="radio" name="11">
   <span class="checkmark"></span>
@@ -292,10 +292,10 @@
     <input type="submit" value="Submit">
 
 </div>
-  
+
 	</article>
 </div>
-  
+
 
 <br>
 <br>
@@ -310,25 +310,25 @@
 
 <div class="footer-flex-container">
   <article class="footer-main2">
-  
+
     <p onclick="myFunctionaccess()">Accessibility</p>
-    
+
   </article>
     <article class="footer-main2">
-  
+
     <p onclick="myFunctionterms()">Terms of Use</p>
-    
+
   </article>
-  
+
     <article class="footer-main2">
-  
+
     <p onclick="myFunctionprivacy()">Privacy Policy</p>
-    
+
   </article>
 
 
-  </div> 
-		
+  </div>
+
 </div>
 
 
